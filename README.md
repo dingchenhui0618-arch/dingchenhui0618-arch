@@ -44,6 +44,18 @@ AI 视觉 · 品牌 GEO
 - 只把「你和助手说过的话」喂给模型，技能目录这类框架注入会被挡掉
 - 收下的句子只记在本机，越用越像你
 
+### [dsh-poker-night](https://github.com/dingchenhui0618-arch/dsh-poker-night) · 德州扑克
+
+无限注德州扑克，1 名玩家 + 7 位 LLM 智能体同桌（Altman、达里奥、马斯克、梁文峰、黄仁勋、雷军、张一鸣），固定八人桌，Web GUI 里多一个「德州扑克」Tab 和一个可拖动小窗。
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/dingchenhui0618-arch/dsh-poker-night/main/docs/table.jpg" width="70%" alt="八人桌界面">
+</p>
+
+- 智能体只能看见自己的底牌，桌边闲话不泄露推理或手牌
+- 局域网联机：一台当主机，另一台加入后随机顶替一名人机角色，并告诉你顶替了谁
+- 默认关闭，不占端口不发广播；基于 MIT 的 [BubblePtr/dsh-holdem](https://github.com/BubblePtr/dsh-holdem) 继续开发
+
 ### [dsh-doudizhu](https://github.com/dingchenhui0618-arch/dsh-doudizhu)
 
 三人局域网斗地主，DSH 浮窗插件：一台做房主，两人凭码加入。
