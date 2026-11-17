@@ -2,10 +2,33 @@
 
 AI 视觉 · 品牌 GEO
 
-- 个人主页：<https://dionysusding.cn>
-- WaVisionAI：<https://wavisionai.cn>
+<table>
+  <tr>
+    <td width="50%"><a href="https://dionysusding.cn"><img src="images/dionysusding-home.jpg" width="100%" alt="dionysusding.cn 首页"></a></td>
+    <td width="50%"><a href="https://wavisionai.cn"><img src="images/wavisionai-home.jpg" width="100%" alt="wavisionai.cn 首页"></a></td>
+  </tr>
+  <tr>
+    <td align="center"><sub><a href="https://dionysusding.cn">dionysusding.cn</a> · 个人主页</sub></td>
+    <td align="center"><sub><a href="https://wavisionai.cn">wavisionai.cn</a> · WaVisionAI 品牌官网</sub></td>
+  </tr>
+</table>
 
 ## 最近在做
+
+### [VisionQA](https://github.com/dingchenhui0618-arch/VisionQA) · 视觉评审工作台
+
+线上入口：<https://visionqa.wavisionai.cn>（临时域名，需登录）
+
+给每一张截图一个可复查的结论：接收截图/产物、DOM 摘要、对话目标和 revision，产出问题清单、证据锚点和有界修正方向。
+
+<p align="center">
+  <img src="images/visionqa-workbench.jpg" width="70%" alt="VisionQA 工作台：左边讲评审流程，右边登录 / 注册">
+</p>
+
+- **检索爆款**：按平台与关键词检索，拆帧复刻成可复用的脚本结构
+- **逐帧评审**：结论只分通过 / 待确认 / 问题三种，每条都落到具体区域
+- **沉淀复用**：评审过的产物回到模板库与工作流，被下一个节点引用
+- 插件形态可嵌进 Chrome / MCP / 桌面宿主；默认离线 Mock，真实多模态 Provider 只在本地显式配置后启用，证据不足时标 `NEEDS_CONTEXT` / `MANUAL_REVIEW`，不伪造像素结论
 
 ### [dsh-in-hand](https://github.com/dingchenhui0618-arch/dsh-in-hand) · 掌上 DSH [![npm](https://img.shields.io/npm/v/dsh-in-hand?style=flat-square)](https://www.npmjs.com/package/dsh-in-hand)
 
@@ -21,16 +44,6 @@ AI 视觉 · 品牌 GEO
 - **接着聊**：还是桌面上那批会话，手机上回一句就继续，逐字看着它跑
 - **拍一张直接发**：发送前压到长边 1600、保留拍摄方向，原图不出手机
 - **等待和交付物都在这一页**：进度、生成的图和 PDF 直接打开
-
-### [VisionQA](https://github.com/dingchenhui0618-arch/VisionQA) · 视觉评审插件
-
-可嵌入宿主智能体（Chrome / MCP / 桌面）的视觉评审插件：接收截图/产物、DOM 摘要、对话目标和 revision，输出可追溯的视觉判断、证据锚点、人工确认动作和有界修正方向。
-
-- 默认走离线 Mock；真实多模态 Provider 只在本地显式配置后启用
-- 证据不足时明确标 `NEEDS_CONTEXT` / `MANUAL_REVIEW`，不伪造像素结论
-- 网页 `/plugin` 可运行，支持本地产物缩略图、证据锚点和离线 fixture 评审
-
-<sub>演示 GIF：这个仓库还没有录屏，待补。</sub>
 
 ### [dsh-tab-complete](https://github.com/dingchenhui0618-arch/dsh-tab-complete) · Tab 补全
 
