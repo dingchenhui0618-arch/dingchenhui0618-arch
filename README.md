@@ -5,7 +5,7 @@ AI 视觉 · 品牌 GEO
 <table>
   <tr>
     <td width="50%"><a href="https://dionysusding.cn"><img src="images/dionysusding-home.jpg" width="100%" alt="dionysusding.cn 首页"></a></td>
-    <td width="50%"><a href="https://wavisionai.cn"><img src="images/wavisionai-home-20261120.jpg" width="100%" alt="wavisionai.cn 首页"></a></td>
+    <td width="50%"><a href="https://wavisionai.cn"><img src="images/wavisionai-home-20261124.jpg" width="100%" alt="wavisionai.cn 首页"></a></td>
   </tr>
   <tr>
     <td align="center"><sub><a href="https://dionysusding.cn">dionysusding.cn</a> · 个人主页</sub></td>
